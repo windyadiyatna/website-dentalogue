@@ -1,0 +1,76 @@
+:root{
+    --pr-color: #F5AB92;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F6F6F6;
+    color: #282828;
+}
+
+.nav-color{
+    background-color: var(--pr-color);
+}
+
+.navbar-item{
+    font-size: 16px;
+}
+
+.nav-link{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.nav-link.active {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.button-primary {
+    width: 102px;
+    height: 43px;
+    background-color: #F5AB92;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+}
+
+.button-lg-primary{
+    width: 219px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+    background-color: #F5AB92;
+    color: white;
+    box-shadow: 6px 5px 17px #F5AB92;
+}
+
+h1{
+    color: #282828;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    margin-top: 20px;
+    margin-bottom: 60px;    
+    width: 75%;
+}
+
+#contact{
+    background-color: #E7E7E7;
+    margin-top: 60px;
+}
+#contact .overlay {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+#contact h3{
+   color:  #2A4416;
+}
+
+.form-control {
+    border: none;
+}
